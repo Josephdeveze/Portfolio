@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta type="description" content="Mon Portfolio etudiant">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles/styles.css" type="text/css">
+    
+</head>
+
+<body>
+    <header>
+        <div class="boxed">
+            <div class="flex aligncenter space-between">
+                <button onclick="openMenu()" class="header-menu-mobile">
+                    <span class="material-symbols-outlined">
+                    menu
+                    </span>
+                </button>
+                <a href="/" class="header-logo">
+                    <img src="img/logo.png" alt="logo">
+                </a>
+                <ul class="header-menu">
+                    <li><a href="">Accueil</a></li>
+                    <li><a href="#profil">Mon profil</a></li>
+                    <li><a href="#competences">Compétences</a></li>
+                    <li><a href="#realisation_scolaire">Réalisations</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="slider">
+        <img src="img/creative Portofolio.png" class="slider-background">
+    </div>
+    <div class="section" id="profil">
+        <div class="boxed">
+            <div class="flex toColumn mCenter">
+                <div class="w40 wm100">
+                    <h2>Mon profil</h2>
+                </div>
+                <div class="w60 wm100">
+                    <p>Actuellement étudiant en BTS SIO en alternance, je suis passionné par le développement informatique et la création de solutions innovantes. J'aime relever des défis techniques et concevoir des projets qui allient performance et expérience utilisateur. Mon objectif est d'apporter des idées neuves tout en perfectionnant mes compétences au service de projets ambitieux.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section dark" id="competences">
+        <div class="boxed text-center">
+            <h2>Mes compétences</h2>
+        </div>
+        <div class="flex toColumn gap20">
+            <div class="w25 wm100 skill">
+                <img src="img/html-logo.png">
+                <h3>HTML</h3>
+            </div>
+            <div class="w25 wm100 skill">
+                <img src="img/php-logo.png">
+                <h3>PHP</h3>
+            </div>
+            <div class="w25 wm100 skill">
+                <img src="img/js-logo.png">
+                <h3>JS</h3>
+            </div>
+            <div class="w25 wm100 skill">
+                <img src="img/java-logo.webp">
+                <h3>JAVA</h3>
+            </div>
+        </div>
+    </div>
+    <div class="section" id="realisation_scolaire">
+        <div class="boxed text-center">
+            <h2>Mes Réalisations professionnelles </h2>
+            <div class="flex wrap gap20 space-between">
+                <div class="w32 wm47 realisation">
+                    <a href="">
+                        <img src="img/gannac_screen.png" alt="">
+                        <h3>Maison Gannac</h3>
+                    </a>
+                </div>
+                <div class="w32 wm47 realisation">
+                    <a href="http://www.jardinecopaca.fr" target="_blank">
+                        <img src="img/jardinecopaca_screen.png" alt="">
+                        <h3>Jardin Ecopaca</h3>
+                    </a>
+                </div>
+                <div class="w32 wm47 realisation">
+                    <a href="">
+                        <img src="img/tineesi_screen.jpg" alt="">
+                        <h3>Tineesi</h3>
+                    </a>
+                </div>
+                <div class="w32 wm47 realisation">
+                    <a href="">
+                        <img src="img/tineesi_screen2.jpg" alt="">
+                        <h3>Tineesi</h3>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="boxed text-center">
+            <h2>Mes Réalisations scolaires</h2>
+            <div class="flex wrap gap20 space-between">
+                <div class="w32 wm47 realisation">
+                    <a href="https://github.com/artodee/Croix-Rouge---Business-Game" target="_blank">
+                        <img src="img/croixrouge_screen.png" alt="">
+                        <h3>Croix Rouge</h3>
+                    </a>
+                </div>
+                <div class="w32 wm47 realisation">
+                    <a href="https://github.com/artodee/Broceliande_immo" target="_blank">
+                        <img src="img/broceliande_screen.png" alt="">
+                        <h3>Broceliande Immo</h3>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section dark" id="contact">
+        <div class="boxed text-center">
+            <h2>Contactez-moi</h2>
+            <div class="flex toColumn space-between mgap20">
+                <div class="w32 wm100 contact">
+                    <span class="label">Mail</span>
+                    <span class="value">
+                        <a href="mailto:joseph.deveze.jd@gmail.com">joseph.deveze.jd@gmail.com</a>
+                    </span>
+                </div>
+                <div class="w32 wm100 contact">
+                    <span class="label">Linkedin</span>
+                    <span class="value">
+                        <a href="https://www.linkedin.com/feed/" target="_blank">Joseph Deveze</a>
+                    </span>
+                </div>
+                <div class="w32 wm100 contact">
+                    <span class="label">Github</span>
+                    <span class="value">
+                        <a href="https://github.com/artodee" target="_blank">Joseph Deveze</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<script src="js/app.js">
+
+</script>
+</html>
