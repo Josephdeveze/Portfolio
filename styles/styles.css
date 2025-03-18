@@ -1,8 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
 
+/* Variables globales */
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #3498db;
+    --light-color: #ecf0f1;
+    --dark-color: #2c3e50;
+    --spacing: 100px;
+    --transition: all 0.3s ease;
+}
+
+/* Reset et styles de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: var(--dark-color);
 }
   
 .slider{
@@ -342,5 +360,104 @@ header{
 
     .mgap20{
         gap: 20px;
+    }
+}
+
+/* Section Contact */
+#contact {
+    background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+    position: relative;
+    padding: 80px 0;
+}
+
+#contact::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #3498db, #2ecc71);
+}
+
+#contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 50px;
+    color: #ffffff;
+    position: relative;
+    display: inline-block;
+}
+
+#contact h2::after {
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 3px;
+    background: #3498db;
+    bottom: -10px;
+    left: 25%;
+}
+
+#contact .contact {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+#contact .contact:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    background: rgba(255, 255, 255, 0.15);
+}
+
+#contact .label {
+    display: block;
+    font-size: 1.2em;
+    color: #ffffff;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+#contact .value a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.1em;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+#contact .value a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: #3498db;
+    transition: width 0.3s ease;
+}
+
+#contact .value a:hover {
+    color: #3498db;
+}
+
+#contact .value a:hover::after {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    #contact .contact {
+        margin-bottom: 20px;
+    }
+    
+    #contact h2 {
+        font-size: 2em;
+    }
+    
+    #contact .contact {
+        padding: 20px;
     }
 }
