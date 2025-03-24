@@ -1,0 +1,52 @@
+# Fichiers système macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Fichiers IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Fichiers de dépendances
+node_modules/
+vendor/
+bower_components/
+
+# Fichiers de construction
+dist/
+build/
+out/
+
+# Fichiers de logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Fichiers environnement
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Fichiers de cache
+.cache/
+.temp/
+.tmp/
+
+# Fichiers de sauvegarde
+*.bak
+*.swp
+*~
+
+# Autres
+.sass-cache/
+*.css.map
+*.js.map
