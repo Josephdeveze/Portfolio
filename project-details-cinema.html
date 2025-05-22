@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Cinéma - Détails du Projet</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <div class="boxed">
+            <div class="flex aligncenter space-between">
+                <button onclick="openMenu()" class="header-menu-mobile">
+                    <span class="material-symbols-outlined">menu</span>
+                </button>
+                <a href="/" class="header-logo">
+                    <img src="img/logo.png" alt="logo">
+                </a>
+                <ul class="header-menu">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="index.html#profil">Mon profil</a></li>
+                    <li><a href="index.html#competences">Compétences</a></li>
+                    <li><a href="index.html#realisation_scolaire">Réalisations</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="section project-details">
+        <div class="boxed">
+            <div class="project-content">
+                <h1 id="projectTitle"></h1>
+                <img id="projectImage" src="" alt="Image du projet" class="project-main-image">
+                
+                <div class="project-info">
+                    <h2>Description</h2>
+                    <p id="projectDescription"></p>
+                    
+                    <h2>Technologies utilisées</h2>
+                    <div id="projectTechnologies" class="tags"></div>
+                    
+                    <h2>Fonctionnalités principales</h2>
+                    <ul id="projectFeatures"></ul>
+                    
+                    <div class="project-links">
+                        <a id="projectGithub" href="" target="_blank" class="btn">Voir sur GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/project-details-cinema.js"></script>
+</body>
+</html>
