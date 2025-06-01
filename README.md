@@ -48,7 +48,7 @@ code .
 ```
 
 ## 🌐 Déploiement
-Le site est accessible à l'adresse : [https://josephdeveze.github.io/portfolio](https://josephdeveze.github.io/portfolio)
+Le site est accessible à l'adresse : [https://josephdeveze.github.io/Portfolio](https://josephdeveze.github.io/Portfolio)
 
 ## 📱 Responsive Design
 - Design adaptatif pour tous les appareils
