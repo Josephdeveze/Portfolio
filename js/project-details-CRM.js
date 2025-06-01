@@ -3,7 +3,7 @@ const projects = {
         title: 'Customer Relationship Management (CRM)',
         image: 'img/litecrm.png',
         description: 'Application CRM développée pour gérer la relation client. ' +
-                    'Cette solution permet de suivre le planing avec les clients, ',
+                    'Cette solution permet de suivre le planing avec les clients ',
         technologies: [
             'PHP',
             'MySQL',
