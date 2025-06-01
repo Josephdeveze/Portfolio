@@ -1,26 +1,28 @@
 const projects = {
-    'CRM': {
-        title: 'Customer Relationship Management (CRM)',
-        image: 'img/litecrm.png',
-        description: 'Application CRM développée pour gérer la relation client. ' +
-                    'Cette solution permet de suivre le planing avec les clients ',
+    'Ticketing': {
+        title: 'Système de Ticketing',
+        image: 'img/litemvc.png',
+        description: 'Application de gestion de tickets développée avec une architecture MVC personnalisée. ' +
+                    'Ce système permet de gérer les demandes de support, suivre leur progression et maintenir ' +
+                    'une communication efficace entre les utilisateurs et l\'équipe support.',
         technologies: [
             'PHP',
             'MySQL',
             'Twig',
             'Altorouter',
             'Architecture MVC',
-
         ],
         features: [
-            'Gestion des contacts et clients',
-            'Pipeline de vente',
-            'Gestion des tâches et rappels',
-            'Tableau de bord analytique',
-            'Historique des interactions',
-            'Agenda intégré',
+            'Création et suivi des tickets',
+            'Système de priorités',
+            'Attribution des tickets aux techniciens',
+            'Historique des interventions',
+            'Dashboard administrateur',
+            'Système de commentaires',
+            'Gestion des statuts',
+            'Recherche et filtrage des tickets'
         ],
-        github: 'https://github.com/Josephdeveze/LiteCRM'
+        github: 'https://github.com/Josephdeveze/Ticketing'
     }
 };
 
